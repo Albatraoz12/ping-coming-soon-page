@@ -15,9 +15,7 @@ function validateEmail() {
     // Reset the border color and error message
     emailInput.classList.remove('red');
     errorSpan.classList.add('hidden');
-
-    // You can add your own logic here, such as submitting the form
-    alert('Email is valid!');
+    emailInput.value = ''; // Clear the email input field
   } else {
     // Email is not valid
     // Set the border color to red and display error message
