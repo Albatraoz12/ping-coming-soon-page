@@ -66,7 +66,16 @@ p {
   padding-inline: 1.5rem;
   border-radius: 20px;
   width: 80%;
-  border: 1px solid var(--very-dark-blue);
+  border: 1px solid var(--pale-blue);
+}
+
+.input-feild::placeholder {
+  color: var(--gray);
+}
+
+.input-feild:focus,
+.input-feild:active {
+  outline-color: var(--pale-blue);
 }
 
 .dashboard-image img {
@@ -85,7 +94,7 @@ p {
   height: 35px;
   padding: 0.5rem;
   width: 35px;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--pale-blue);
   border-radius: 50%;
 }
 
