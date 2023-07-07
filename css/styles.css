@@ -30,7 +30,6 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* gap: 2rem; */
 }
 
 .banner {
@@ -60,6 +59,15 @@ h1 {
 
 p {
   font-size: 0.8rem;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
 }
 
 .input-feild {
@@ -121,4 +129,17 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    height: 100%;
+  }
+  .wrapper {
+    width: 80vw;
+  }
+  .dashboard-image img {
+    object-fit: scale-down;
+    height: 500px;
+  }
 }
