@@ -22,6 +22,12 @@ main {
 .wrapper {
   max-width: 90vw;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 10rem;
 }
 
 .dashboard-image img {
