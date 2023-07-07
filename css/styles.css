@@ -135,11 +135,55 @@ p {
   body {
     height: 100%;
   }
-  .wrapper {
-    width: 80vw;
+
+  main {
+    height: auto;
   }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    width: 40vw;
+  }
+
+  .banner img {
+    width: 70px;
+  }
+
+  .form-wrapper {
+    flex-direction: row;
+  }
+
+  .btn {
+    width: 30%;
+  }
+  .input-feild {
+    width: 50%;
+  }
+  .dashboard-section {
+    margin-bottom: 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .dashboard-image img {
-    object-fit: scale-down;
-    height: 500px;
+    object-fit: contain;
+    height: auto;
+  }
+
+  .logo-section {
+    margin: 3rem auto;
+  }
+
+  .logo {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 8px !important;
   }
 }
