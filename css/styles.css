@@ -7,6 +7,11 @@
 }
 
 :root {
+  --blue: hsl(223, 87%, 63%);
+
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+
   --gray: hsl(0, 0%, 59%);
   --very-dark-blue: hsl(209, 33%, 12%);
 }
@@ -56,6 +61,14 @@ p {
   font-size: 0.8rem;
 }
 
+.input-feild {
+  padding: 0.5rem;
+  padding-inline: 1.5rem;
+  border-radius: 20px;
+  width: 80%;
+  border: 1px solid var(--very-dark-blue);
+}
+
 .dashboard-image img {
   width: 100%;
 }
@@ -68,7 +81,7 @@ p {
 }
 
 .logo-section div .logo {
-  fill: rgb(23, 105, 133);
+  fill: var(--blue);
   height: 35px;
   padding: 0.5rem;
   width: 35px;
