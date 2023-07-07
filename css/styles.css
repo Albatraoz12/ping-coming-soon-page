@@ -14,3 +14,40 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
 }
+
+main {
+  height: 90vh;
+}
+
+.wrapper {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.dashboard-image img {
+  width: 100%;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-section div .logo {
+  fill: rgb(23, 105, 133);
+  height: 35px;
+  padding: 0.5rem;
+  width: 35px;
+  border: 1px solid var(--gray);
+  border-radius: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
