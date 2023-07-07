@@ -178,6 +178,29 @@ p {
   .input-feild {
     width: 50%;
   }
+
+  .input-feild.red {
+    border-color: var(--light-red);
+  }
+
+  .input-feild.red:focus,
+  .input-feild.red:active {
+    border-color: var(--light-red);
+    outline: none;
+  }
+
+  .error.hidden {
+    display: none;
+  }
+
+  .error {
+    align-self: flex-start;
+    margin-left: 4rem;
+    color: var(--light-red);
+    font-size: 12px;
+    font-style: italic;
+  }
+
   .dashboard-section {
     margin-bottom: 2rem;
     width: 80%;
